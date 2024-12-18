@@ -6,6 +6,7 @@ import Card from '../components/Card';
 
 import { books } from '../docs/books';
 
+import { github_project_url } from '../constants/';
 // https://github.com/alfaarghya/alfa-leetcode-api?tab=readme-ov-file
 // https://alfa-leetcode-api.onrender.com/select?titleSlug=selected-question
 
@@ -39,6 +40,7 @@ const BookSection3 = () => {
                                         title="New Book Here"
                                         description="A new book is currently being worked on. Stay tuned for updates!"
                                         image=""
+                                        url={github_project_url}
                                         buttonIsVisible={true}
                                         buttonTitle="Vote the book on GitHub"
                                     />
