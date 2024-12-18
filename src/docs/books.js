@@ -1,10 +1,13 @@
+import ctciCover from '../assets/ctci.jpg';
+
+
 export const books = [
     {
         id: 0,
         title: "Cracking the Coding Interview",
         authors: ["Gayle Laakmann McDowell"],
         short_intro: "A comprehensive guide by Gayle Laakmann McDowell that prepares you for coding interviews",
-        cover: "./src/assets/ctci.jpg",
+        cover: ctciCover,
         path: "ctci",
         intro: `
             <div className="space-y-7 text-justify">
