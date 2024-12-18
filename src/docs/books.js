@@ -1,4 +1,8 @@
 import ctciCover from '../assets/ctci.jpg';
+import eopiCover from '../assets/eopi.jpg';
+import gtciCover from '../assets/gtci.png';
+import neetcodeCover from '../assets/neetcode.png';
+import algomapCover from '../assets/algomap.png';
 
 
 export const books = [
@@ -65,7 +69,7 @@ export const books = [
         title: "Elements of Programming Interviews",
         authors: ["Adnan Aziz", "Tsung-Hsien Lee", "Amit Prakash"],
         short_intro: "A collection of over 300 problems with detailed solutions, including 100 figures, 250 tested programs, and 150 variants",
-        cover: "./src/assets/eopi.jpg",
+        cover: eopiCover,
         path: "epi",
         intro: `
             <div className="space-y-8 text-justify">
@@ -139,7 +143,7 @@ export const books = [
         title: "Grokking the Coding Interview",
         authors: [],
         short_intro: "Coding interviews are getting harder every day. A few years back, brushing up on key data structures and going through 50-75 coding ",
-        cover: "./src/assets/gtci.png",
+        cover: gtciCover,
         path: "gci",
         intro: `
             <div className="space-y-8 text-justify">
@@ -166,7 +170,7 @@ export const books = [
         title: "Neetcode Roadmap",
         authors: [],
         short_intro: "I created NeetCode in 2020 when I was unemployed and couldn't find a job. I received so many messages from others who got jobs after watching my videos. It felt so gratifying and kept me going.",
-        cover: "./src/assets/neetcode.png",
+        cover: neetcodeCover,
         path: "nr",
         intro: "Arrays and Strings...",
         amazon: [],
@@ -178,7 +182,7 @@ export const books = [
         title: "AlgoMap",
         authors: [],
         short_intro: "Your live instructor is the one and only Greg Hogg - the internet's teacher of data structures and algorithms.",
-        cover: "./src/assets/algomap.png",
+        cover: algomapCover,
         path: "am",
         intro: "Arrays and Strings...",
         amazon: [],

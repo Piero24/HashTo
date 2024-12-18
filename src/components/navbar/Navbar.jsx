@@ -11,6 +11,8 @@ import { github_url, website_url} from '../../constants/';
 
 import Section from '../Section';
 
+import Logo from "../../assets/logo.svg";
+
 const Navbar = () => {
     const navigate = useNavigate();
 
@@ -23,7 +25,7 @@ const Navbar = () => {
                             <div className='h-8 sm:h-10'>
                                 <img 
                                     src={'/src/assets/logo.svg'} 
-                                    alt="Logo"
+                                    alt={Logo}
                                     className="h-full coh-full object-contain"
                                     onClick={() => navigate('/')}
                                 />
