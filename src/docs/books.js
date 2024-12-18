@@ -3,6 +3,7 @@ import eopiCover from '../assets/eopi.jpg';
 import gtciCover from '../assets/gtci.png';
 import neetcodeCover from '../assets/neetcode.png';
 import algomapCover from '../assets/algomap.png';
+import leetcode75Cover from '../assets/lt75.png';
 
 
 export const books = [
@@ -65,6 +66,7 @@ export const books = [
         ],
         link: "",
         hidden: false,
+        map: true,
     },
     {
         id: 1,
@@ -137,6 +139,7 @@ export const books = [
         ],
         link: "",
         hidden: false,
+        map: true,
     },
     {
         id: 2,
@@ -146,24 +149,23 @@ export const books = [
         cover: gtciCover,
         path: "gci",
         intro: `
-            <div className="space-y-8 text-justify">
-                <p>
-                    Coding interviews are getting harder every day. A few years back, brushing up on key data structures and going through 50-75 coding interview questions was more than enough prep for an interview. Today, everyone has access to massive sets of coding problems, and they have gotten more difficult to account for that. The process has gotten more competitive.
-                </p>
-                <p className="pt-3">
-                    When our team sat together to brainstorm on ideas to make the interview process easier for candidates, we realized quickly that one skill helped us the most when we were preparing for coding interviews: "the ability to map a new problem to an already known problem."
-                </p>
-                <p>
-                    To help candidates with that, we have come up with a list of 27 common coding patterns to help solve coding questions. The idea is, once you are familiar with a pattern, you'll be able to solve dozens of problems with it.
-                </p>
-                <p>
-                    The techniques taught in this course have helped developers land jobs in top companies including Google, Facebook, Amazon, and Microsoft.
-                </p>
-            </div>
+            <p>
+                Coding interviews are getting harder every day. A few years back, brushing up on key data structures and going through 50-75 coding interview questions was more than enough prep for an interview. Today, everyone has access to massive sets of coding problems, and they have gotten more difficult to account for that. The process has gotten more competitive.
+            </p>
+            <p className="pt-3">
+                When our team sat together to brainstorm on ideas to make the interview process easier for candidates, we realized quickly that one skill helped us the most when we were preparing for coding interviews: "the ability to map a new problem to an already known problem."
+            </p>
+            <p>
+                To help candidates with that, we have come up with a list of 27 common coding patterns to help solve coding questions. The idea is, once you are familiar with a pattern, you'll be able to solve dozens of problems with it.
+            </p>
+            <p>
+                The techniques taught in this course have helped developers land jobs in top companies including Google, Facebook, Amazon, and Microsoft.
+            </p>
             `,
         amazon: [],
         link: "https://www.designgurus.io/course/grokking-the-coding-interview?gad_source=1&gclid=CjwKCAiA34S7BhAtEiwACZzv4Vsr59xJb4u756LzRqPdKuUMcs8SiYPt8Bn4MT8MxzygeWPg2vGpcRoCYH8QAvD_BwE",
         hidden: false,
+        map: true,
     },
     {
         id: 3,
@@ -176,6 +178,7 @@ export const books = [
         amazon: [],
         link: "https://neetcode.io/pro",
         hidden: false,
+        map: false,
     },
     {
         id: 4,
@@ -188,5 +191,39 @@ export const books = [
         amazon: [],
         link: "https://algomap.io/bootcamp",
         hidden: false,
+        map: false,
+    },
+    {
+        id: 5,
+        title: "LeetCode 75",
+        authors: ["LeetCode"],
+        short_intro: "The “LeetCode 75” is a handpicked collection of 75 essential problems that are critical for interview preparation. These problems cover a broad range of topics and are designed to help you strengthen your problem-solving skills.",
+        cover: leetcode75Cover,
+        path: "lt75",
+        intro: `
+            <p>
+                The “LeetCode 75” collection is one of the most popular and widely recommended problem sets for coding interview preparation. It is a comprehensive list of 75 carefully 
+                selected problems that span across a wide range of topics such as arrays, strings, dynamic programming, trees, graphs, backtracking, and more. These problems are frequently 
+                asked by top tech companies and are considered essential for any candidate who is serious about performing well in coding interviews.
+            </p>
+            <p className="pt-3">
+                This set is best suited for those who have 1 to 3 months available for dedicated preparation. The problems vary in difficulty, from easy to hard, 
+                ensuring that candidates of all levels can benefit from working through them. The “LeetCode 75” serves not only as a problem list but also as a 
+                roadmap for improving key problem-solving skills, time management during interviews, and enhancing algorithmic thinking.
+            </p>
+            <p>
+                Each problem in the set is designed to help candidates master the most important coding concepts that interviewers typically focus on. 
+                The problems are also accompanied by detailed explanations and solutions, which provide a deeper understanding of the underlying principles and 
+                approaches needed to solve the problem efficiently.
+            </p>
+            <p>
+                Whether you're just starting to prepare for coding interviews or looking to refine your skills, the “LeetCode 75” is an essential tool for anyone 
+                looking to succeed in technical interviews. It's a great resource for practicing consistently and building the necessary confidence to tackle coding challenges head-on.
+            </p>
+        `,
+        amazon: [],
+        link: "https://leetcode.com/studyplan/leetcode-75/",
+        hidden: false,
+        map: false,
     },
 ];
