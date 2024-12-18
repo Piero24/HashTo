@@ -19,3 +19,5 @@ export const linkedin_url = 'https://www.linkedin.com/in/pietrobonandrea/';
 export const github_url = 'https://github.com/Piero24';
 export const huggingface_url = 'https://huggingface.co/Piero2411';
 export const website_url = 'https://www.pietrobonandrea.com';
+
+export const github_project_url = 'https://github.com/Piero24/HashTo';
