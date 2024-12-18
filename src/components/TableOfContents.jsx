@@ -21,7 +21,7 @@ const importQuestions = async (path) => {
             return (await import("../docs/ctci")).ctci_questions;
         case "epi":
             return (await import("../docs/epi")).epi_questions;
-        case "am":
+        case "gci":
             return (await import("../docs/gci")).gci_questions;
         case "am":
             return (await import("../docs/am")).am_questions;
