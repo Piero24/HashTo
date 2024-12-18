@@ -38,7 +38,7 @@ const importQuestions = async (path) => {
   };
 
 
-const TableOfContents = () => {
+const BooksTableOfContents = () => {
     const { title } = useParams();
 
     const generateSlug = (title) => title.toLowerCase().replace(/\s+/g, "-");
@@ -194,4 +194,4 @@ const TableOfContents = () => {
     );
 };
 
-export default TableOfContents;
+export default BooksTableOfContents;

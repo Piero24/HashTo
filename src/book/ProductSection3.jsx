@@ -7,7 +7,10 @@ import { books } from '../docs/books';
 import { github_project_url } from '../constants/';
 
 import Section from '../components/Section';
-import TableOfContents from '../components/TableOfContents';
+
+import BooksTableOfContents from '../components/BooksTableOfContents';
+import LeetCodeTableOfContents from '../components/LeetCodeTableOfContents';
+
 
 const ProductSection3 = () => {
     const { title } = useParams();
@@ -39,7 +42,7 @@ const ProductSection3 = () => {
                 </div>
                 <div className='h-10 w-full'></div>
                 <div className="px-5 md:px-10">
-                    <TableOfContents />
+                    {book.map ? <BooksTableOfContents /> : <LeetCodeTableOfContents />}
                 </div>
                 <div className='h-20 w-full'></div>
                 <div className='text-center text-color-9 w-full px-5 sm:px-16 md:px-32'>
