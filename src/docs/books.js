@@ -14,20 +14,22 @@ export const books = [
         cover: ctciCover,
         path: "ctci",
         intro: `
-            <div className="space-y-7 text-justify">
-                <p>
-                I am not a recruiter. I am a software engineer. And as such, I know what it's like to be asked to whip up brilliant algorithms on the spot and then write flawless code on a whiteboard. I've been through this as a candidate and as an interviewer.
-                </p>
-                <p>
-                <strong>Cracking the Coding Interview, 6th Edition</strong> is here to help you through this process, teaching you what you need to know and enabling you to perform at your very best. I've coached and interviewed hundreds of software engineers. The result is this book.
-                </p>
-                <p>
-                Learn how to uncover the hints and hidden details in a question, discover how to break down a problem into manageable chunks, develop techniques to unstick yourself when stuck, learn (or re-learn) core computer science concepts, and practice on 189 interview questions and solutions.
-                </p>
-                <p>
-                These interview questions are real; they are not pulled out of computer science textbooks. They reflect what's truly being asked at the top companies, so that you can be as prepared as possible.
-                </p>
-            </div>
+            <p>
+                I am not a recruiter. I am a software engineer. And as such, I know what it's like to be asked to whip up brilliant algorithms on 
+                the spot and then write flawless code on a whiteboard. I've been through this as a candidate and as an interviewer.
+            </p>
+            <p>
+                <strong>Cracking the Coding Interview, 6th Edition</strong> is here to help you through this process, teaching you what you 
+                need to know and enabling you to perform at your very best. I've coached and interviewed hundreds of software engineers. The result is this book.
+            </p>
+            <p>
+                Learn how to uncover the hints and hidden details in a question, discover how to break down a problem into manageable 
+                chunks, develop techniques to unstick yourself when stuck, learn (or re-learn) core computer science concepts, and practice on 189 interview questions and solutions.
+            </p>
+            <p>
+                These interview questions are real; they are not pulled out of computer science textbooks. They reflect what's 
+                truly being asked at the top companies, so that you can be as prepared as possible.
+            </p>
             `,
         amazon: [
             {
@@ -72,36 +74,34 @@ export const books = [
         cover: eopiCover,
         path: "epi",
         intro: `
-            <div className="space-y-8 text-justify">
-                <p>
-                    Adnan Aziz is a Research Scientist at Facebook. Previously, he was a
-                    professor at the Department of Electrical and Computer Engineering at The
-                    University of Texas at Austin, where he conducted research and taught
-                    classes in applied algorithms. He received his Ph.D. from The University of
-                    California at Berkeley; his undergraduate degree is from Indian Institutes of
-                    Technology Kanpur. He has worked at Google, Qualcomm, IBM, and several
-                    software startups. When not designing algorithms, he plays with his children,
-                    Laila, Imran, and Omar.
-                </p>
-                <p className="pt-3">
-                    Tsung-Hsien Lee is a Senior Software Engineer at Uber. Previously, he worked
-                    as a Software Engineer at Google and as Software Engineer Intern at
-                    Facebook. He received both his M.S. and undergraduate degrees from National
-                    Tsing Hua University. He has a passion for designing and implementing
-                    algorithms. He likes to apply algorithms to every aspect of his life. He
-                    takes special pride in helping to organize Google Code Jam 2014 and 2015.
-                </p>
-                <p>
-                    Amit Prakash is a co-founder and CTO of ThoughtSpot, a Silicon Valley
-                    startup. Previously, he was a Member of the Technical Staff at Google, where
-                    he worked primarily on machine learning problems that arise in the context
-                    of online advertising. Before that he worked at Microsoft in the web search
-                    team. He received his Ph.D. from The University of Texas at Austin; his
-                    undergraduate degree is from Indian Institutes of Technology Kanpur. When he
-                    is not improving business intelligence, he indulges in his passion for
-                    puzzles, movies, travel, and adventures with Nidhi and Aanya.
-                </p>
-            </div>
+            <p>
+                <strong>Adnan Aziz is a Research Scientist at Facebook.</strong> Previously, he was a
+                professor at the Department of Electrical and Computer Engineering at The
+                University of Texas at Austin, where he conducted research and taught
+                classes in applied algorithms. He received his Ph.D. from The University of
+                California at Berkeley; his undergraduate degree is from Indian Institutes of
+                Technology Kanpur. He has worked at Google, Qualcomm, IBM, and several
+                software startups. When not designing algorithms, he plays with his children,
+                Laila, Imran, and Omar.
+            </p>
+            <p>
+                <strong>Tsung-Hsien Lee is a Senior Software Engineer at Uber.</strong> Previously, he worked
+                as a Software Engineer at Google and as Software Engineer Intern at
+                Facebook. He received both his M.S. and undergraduate degrees from National
+                Tsing Hua University. He has a passion for designing and implementing
+                algorithms. He likes to apply algorithms to every aspect of his life. He
+                takes special pride in helping to organize Google Code Jam 2014 and 2015.
+            </p>
+            <p>
+                <strong>Amit Prakash is a co-founder and CTO of ThoughtSpot,</strong> a Silicon Valley
+                startup. Previously, he was a Member of the Technical Staff at Google, where
+                he worked primarily on machine learning problems that arise in the context
+                of online advertising. Before that he worked at Microsoft in the web search
+                team. He received his Ph.D. from The University of Texas at Austin; his
+                undergraduate degree is from Indian Institutes of Technology Kanpur. When he
+                is not improving business intelligence, he indulges in his passion for
+                puzzles, movies, travel, and adventures with Nidhi and Aanya.
+            </p>
             `,
         amazon: [
             {

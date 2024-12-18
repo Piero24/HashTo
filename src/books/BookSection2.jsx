@@ -9,27 +9,32 @@ const BookSection2 = () => {
     return (
         <div>
             <Section>
-                <div className='bg-yellow-200 flex justify-center items-center'>
-                    <div>
-                        <div className='flex justify-center items-center my-1'>
-                            <div>
-                                <PiWarningFill />
-                            </div>
-                            <span>
-                                &nbsp;<strong>DISCLAIMER</strong>&nbsp;
+                <div className="bg-gray-900 flex justify-center items-center relative">
+                    {/* Floating Glass Effect */}
+                    <div className="relative bg-gray-800 shadow-xl rounded-lg p-8 w-11/12 md:w-5/6 lg:w-3/4 mx-auto border border-yellow-500 transform transition duration-300 hover:scale-105 hover:shadow-yellow-400/50">
+                        {/* Disclaimer Header */}
+                        <div className="flex justify-center items-center text-yellow-400 space-x-2 mb-4">
+                            <PiWarningFill className="text-3xl animate-pulse" />
+                            <span className="font-bold text-xl uppercase tracking-wider text-yellow-300">
+                                Disclaimer
                             </span>
-                            <div>
-                                <PiWarningFill />
-                            </div>
+                            <PiWarningFill className="text-3xl animate-pulse" />
                         </div>
-                        <div className='flex-col justify-center items-center text-sm my-1'>
-                            <div className='text-center'>
-                                This website is solely intended to help users easily find corresponding LeetCode problems based on the titles of exercises from popular books and courses. <strong>No content from these books or courses is hosted, shared, or reproduced here.</strong>
-                            </div>
-                            <div className='text-center'>
-                                We respect the intellectual property rights of all authors and publishers. This tool only provides a reference for publicly available LeetCode problems and does not include any proprietary material from external resources.
-                            </div>
+                        {/* Disclaimer Content */}
+                        <div className="text-gray-300 text-center leading-relaxed space-y-4">
+                            <p>
+                                This website helps users find <strong className="text-yellow-300">LeetCode problems</strong> based on exercise titles from popular books and courses. 
+                                <strong className="text-yellow-300"> No book content is hosted or shared here.</strong>
+                            </p>
+                            <p>
+                                We fully respect the intellectual property of authors and publishers. 
+                                This tool serves only as a <strong className="text-yellow-300">reference guide</strong> to publicly available LeetCode problems and does not reproduce any proprietary material.
+                            </p>
                         </div>
+                        {/* Cool Glasses Emoji */}
+                        <div className="absolute -top-6 right-8 text-gray-500 text-5xl rotate-12">😎</div>
+                        <div className="absolute -top-6 left-8 text-gray-500 text-4xl -rotate-12">🤓</div>
+                        <div className="absolute -bottom-5 left-[65%] text-gray-500 text-5xl -rotate-2">👨‍💻</div>
                     </div>
                 </div>
                 <div className='h-20 w-full'></div>

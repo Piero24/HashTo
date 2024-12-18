@@ -1,9 +1,11 @@
 import React from 'react';
+
 import { useParams } from 'react-router-dom';
 
 import Section from '../components/Section';
 
 import { books } from '../docs/books';
+
 
 const ProductSection1 = () => {
   const { title } = useParams();
@@ -57,7 +59,7 @@ const ProductSection1 = () => {
 
             {/* Intro */}
             <div
-              className="text-color-9 py-6"
+              className="text-color-9 py-6 space-y-5 text-justify"
               dangerouslySetInnerHTML={{ __html: book.intro }}
             />
 
