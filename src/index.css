@@ -141,6 +141,12 @@
   right: 0;
 }
 
+.custom-cursor {
+  font-size: 2rem; /* Matches the text size (text-4xl = 2.25rem) */
+  line-height: 2.5rem; /* Aligns cursor with text */
+  color: #00FA9A; /* Tailwind's blue-500 */
+}
+
 @media screen and (max-width: 768px) {
 
   .buttonHashTo {

@@ -11,6 +11,7 @@ const Card = ({
     buttonIsVisible = true,
     slug = 'a',
     buttonTitle = 'N/A',
+    url = '',
 }) => {
     return (
         <div>
@@ -31,7 +32,12 @@ const Card = ({
                             <span>{description}</span>
                         </div>
                         {buttonIsVisible && (
-                            <a href={`/book/${slug}`} className="card-button">
+                            <a 
+                                href={url && url.trim() ? url : `/book/${slug}`} 
+                                className="card-button" 
+                                target={url && url.trim() ? "_blank" : "_self"} 
+                                rel={url && url.trim() ? "noopener noreferrer" : ""}
+                            >
                                 <button className="App-button">
                                     {buttonTitle}
                                 </button>

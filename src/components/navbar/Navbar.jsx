@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaGithub } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 
-import { github_url, website_url} from '../../constants/';
+import { github_project_url, website_url} from '../../constants/';
 
 import Section from '../Section';
 
@@ -48,7 +48,7 @@ const Navbar = () => {
                                         </a>
                                     </div>
                                     <div className="transform transition duration-300 hover:scale-110 hover:text-color-4">
-                                        <a href={`${github_url}`}>
+                                        <a href={`${github_project_url}`}>
                                             <FaGithub />
                                         </a>
                                     </div>
