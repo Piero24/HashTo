@@ -25,7 +25,7 @@ const HomeSection1 = () => {
                             </div>
                             <div className='flex justify-center w-[70%] mt-12'>
                                 <button 
-                                    onClick={() => window.location.href = '/books'}
+                                    onClick={() => window.location.href = '/Resources'}
                                     className="buttonHomePage"
                                 >
                                         Exercises

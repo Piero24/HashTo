@@ -6,12 +6,12 @@ import Card from '../components/Card';
 
 import { books } from '../docs/books';
 
-import { github_project_url } from '../constants/';
+import { github_project_url } from '../constants';
 // https://github.com/alfaarghya/alfa-leetcode-api?tab=readme-ov-file
 // https://alfa-leetcode-api.onrender.com/select?titleSlug=selected-question
 
 // https://www.npmjs.com/package/leetcode-query
-const BookSection3 = () => {
+const ResourcesSection3 = () => {
 
     const generateSlug = (title) => title.toLowerCase().replace(/\s+/g, '-');
 
@@ -55,4 +55,4 @@ const BookSection3 = () => {
     );
 };
 
-export default BookSection3;
+export default ResourcesSection3;

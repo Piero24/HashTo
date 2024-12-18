@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <div className="mr-14 text-lg transform transition duration-300 hidden sm:block hover:scale-105 hover:text-color-4">
                                     <a 
                                         href=""
-                                        onClick={() => navigate('/books')}
+                                        onClick={() => navigate('/Resources')}
                                     >
                                         Exercises
                                     </a>
