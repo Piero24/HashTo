@@ -4,7 +4,7 @@ import TypingEffect from "react-typing-effect";
 
 import Section from '../components/Section';
 
-import BookImg from '../assets/bookEx.png';
+import BookImg from "../assets/webp/bookEx.webp";
 
 
 const BookSection1 = () => {
