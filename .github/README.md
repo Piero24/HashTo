@@ -52,53 +52,58 @@
 <br/><br/>
 <h2 id="introduction">📔  Introduction</h2>
 <p>
-    Questo progetto è stato creato per mappare gli esercizi di libri o corsi famosi in problemi di leetcode. Permettendo così a tutti di potersi esercitare facilmente senza ricorrere a carta e penna o a pochi test case. I libri sono ottimi per esercitarsi ma non sempre si ha la possibilità di controllare se la soluzione è corretta o meno. Questo progetto permette di avere un feedback immediato e di poter vedere se la soluzione è corretta o meno. I corsi banarlmente spesso forniscono pochi test cases e quindi è difficile sapere anche in questo caso se la nostra soluzione è corretta o meno.
+    This project is designed to map exercises from renowned books and courses to LeetCode problems, enabling everyone to practice coding efficiently without relying on pen and paper or a limited number of test cases. While books are fantastic resources for learning, they often lack a mechanism to validate your solutions automatically. Similarly, courses frequently provide only a handful of test cases, making it challenging to determine whether your solution works across various scenarios.
+</p>
+<p>
+    This platform offers immediate feedback, helping users verify the correctness of their solutions and refine their problem-solving skills. By bridging the gap between theory and practice, it significantly boosts productivity and makes practicing coding much simpler.
 </p>
 <br/>
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Piero24/HashTo/refs/heads/main/.github/bg-1.png?token=GHSAT0AAAAAACXVXBSVRYYALTD4MHZWCBHSZ3EFFPA" style="width: 100%;" width="100%">
+</div>
+<br/>
 <p>
-    Questo progetto è nato con l'obbiettivo di mappare gli esercizi di libri famosi come cracking the coding interview o element of programming in problemi presenti su leetcode. In questo modo è possibile esercitarsi in modo più semplice e veloce. Aumentando notevomente la produttività e la possibilità di esercitarsi.
+    The project aims to map exercises from famous books, such as <Strong>Cracking the Coding Interview</Strong> and <Strong>Elements of Programming</Strong>, to corresponding problems available on LeetCode. This mapping allows users to practice more effectively and efficiently, helping them gain confidence and proficiency in coding. With this approach, productivity increases remarkably, and the opportunities for hands-on practice grow exponentially. 🚀
 </p>
 
 > [!NOTE]
-> Questo progetto non contine alcun testo o video coperto da copyright e utilizzato inpropriamente. L'unica cosa fornita è il nome dell'essercizio e la rispettiva domanda su leetcode. This website helps users locate LeetCode problems that align with exercise titles from popular books and courses, providing a platform to test and refine their solutions to the problems discussed in those materials. No book content is hosted or shared here.
-We fully respect the intellectual property of authors and publishers. This tool serves only as a reference guide to publicly available LeetCode problems and does not reproduce any proprietary material. We do not endorse or encourage any improper use of this list.
-Instead, we strongly encourage users to purchase these books and courses to gain a deeper understanding of the concepts, benefit from detailed explanations, and acquire valuable insights into solving the problems effectively. Supporting the authors and creators ensures access to high-quality educational resources.
+> This project does not include any copyrighted text or video material, nor does it misuse proprietary content. The only information provided is the title of the exercise and the corresponding problem on LeetCode. This tool serves purely as a reference guide, helping users find publicly available LeetCode problems related to popular exercises. We fully respect the intellectual property rights of authors and publishers. No proprietary content is hosted or shared here. Instead, this project encourages users to: Purchase the books and courses to gain a deeper understanding of the concepts. 📚 Benefit from the detailed explanations and insights provided by the original creators. Support the authors and publishers, ensuring access to high-quality educational resources. ❤️ This tool is simply an aid for those looking to practice coding problems aligned with exercises from renowned resources.
 
 > [!WARNING]
-> Non ci assumiamo nessuna responsabilità per un uso improrio di questo materiale e di tutto ciò che lo riguarda. Non ci assumiamo nessuna responsabilità per danni causati a persone e/o oggetti nell'uso del materiale.
+> We are not responsible for any misuse of this material or the consequences thereof.
+This tool is provided “as is,” and any damage to property or harm to individuals resulting from its use is entirely at the user’s own risk.
 
-<br/>
-<div align="center">
-    <img src="./bg-1.png" style="width: 100%;" width="100%">
-</div>
 <br/>
 <p align="right"><a href="#top">⇧</a></p>
 
 
 <h2 id="documentation"><br/><br/>📚  Documentation</h2>
 
-<br/>  
+<br/>
 <p>
-    Attualmente i libri corsi o liste di esercizzi inclusi sono:
-    - Cracking the coding interview
-    - Elements of programming (Python, Java, C++, etc...)
-    - Leetcode 75
+    Currently, the included books, courses, or exercise lists are:
+    <ul>
+        <li>Cracking the Coding Interview</li>
+        <li>Elements of Programming (Python, Java, C++, etc.)</li>
+        <li>LeetCode 75</li>
+    </ul>
 </p>
 <p>
-    Quelli aggiunti in futuro saranno:
-    - Grokking the coding interview
-    - Neetcode All
-    - AlgoMap
-    - Leetcode 150
-    
+    Those to be added in the future are:
+    <ul>
+        <li>Grokking the Coding Interview</li>
+        <li>Neetcode All</li>
+        <li>AlgoMap</li>
+        <li>LeetCode 150</li>
+    </ul>
 </p>
 
 > [!NOTE]
-> Ricordiamo nuovamente che nessun materiale coperto da diritto d'autore è presente in questo progetto. L'unico scopo è quello di mappare gli esercizi in problemi di leetcode.
+> Once again, we remind you that no copyrighted material is included in this project. The sole purpose is to map exercises to LeetCode problems.
 
 <br/>
 <div align="center">
-    <img src="./bg-2.png" style="width: 100%;" width="100%">
+    <img src="https://raw.githubusercontent.com/Piero24/HashTo/refs/heads/main/.github/bg-2.png?token=GHSAT0AAAAAACXVXBSUBNZ27EGASA457IJUZ3EFFXQ" style="width: 100%;" width="100%">
 </div>
 <br/>  
 
@@ -108,9 +113,9 @@ Instead, we strongly encourage users to purchase these books and courses to gain
 
 <h2 id="Contributions"><br/>🧰  Contributions</h2>
 <p>
-    Le contribuzioni per aiutare lo sviluppo del progetto sono ben accette.
-    Se volete contribuire aggiungendo nuovi libri, corsi o esercizi siete i benvenuti.
-    Seguite la sezione Contribution per vedere come fare.
+    Contributions to help develop the project are warmly welcomed.  
+    If you would like to contribute by adding new books, courses, or exercises, you are more than welcome.  
+    Please refer to the <a href="#contribution" style="text-decoration: none; color: blue;">Contribution</a> section to see how to proceed.
 </p>
 <br/>
 
@@ -156,47 +161,6 @@ Instead, we strongly encourage users to purchase these books and courses to gain
 <br/>
 
 <p align="right"><a href="#top">⇧</a></p>
-  
---- 
-
-<h3 id="third-party-licenses"><br/>📌  Third Party Licenses</h3>
-
-In the event that the software uses third-party components for its operation, 
-<br/>
-the individual licenses are indicated in the following section.
-<br/>
-<br/>
-<strong>Software list:</strong>
-<br/>
-<table>
-  <tr  align="center">
-    <th>Software</th>
-    <th>License owner</th> 
-    <th>License type</th> 
-    <th>Link</th>
-  </tr>
-  <tr  align="center">
-    <td>OpenCV</td>
-    <td><a href="https://opencv.org">OpenCV</a></td>
-    <td>Apache-2.0 license</td>
-    <td><a href="https://github.com/opencv/opencv">here</a></td>
-  </tr>
-  <tr  align="center">
-    <td>nlohmann/json</td> 
-    <td><a href="https://github.com/nlohmann">nlohmann</a></td>
-    <td>MIT</td>
-    <td><a href="https://github.com/nlohmann/json">here</a></td>
-  </tr>
-  <tr  align="center">
-    <td>pyTorch</td>
-    <td><a href="https://pytorch.org">PyTorch</a></td>
-    <td>Multiple</td>
-    <td><a href="https://github.com/pytorch/pytorch">here</a></td>
-  </tr>
-</table>
-
-<p align="right"><a href="#top">⇧</a></p>
-
 
 ---
 > *<p align="center"> Copyrright (C) by Pietrobon Andrea <br/> Released date: 05-01-2025*
