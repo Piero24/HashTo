@@ -52,70 +52,55 @@
 <br/><br/>
 <h2 id="introduction">📔  Introduction</h2>
 <p>
-    
+    Questo progetto è stato creato per mappare gli esercizi di libri o corsi famosi in problemi di leetcode. Permettendo così a tutti di potersi esercitare facilmente senza ricorrere a carta e penna o a pochi test case. I libri sono ottimi per esercitarsi ma non sempre si ha la possibilità di controllare se la soluzione è corretta o meno. Questo progetto permette di avere un feedback immediato e di poter vedere se la soluzione è corretta o meno. I corsi banarlmente spesso forniscono pochi test cases e quindi è difficile sapere anche in questo caso se la nostra soluzione è corretta o meno.
 </p>
 <br/>
 <p>
-    
+    Questo progetto è nato con l'obbiettivo di mappare gli esercizi di libri famosi come cracking the coding interview o element of programming in problemi presenti su leetcode. In questo modo è possibile esercitarsi in modo più semplice e veloce. Aumentando notevomente la produttività e la possibilità di esercitarsi.
 </p>
-<br/>
-<div align="center">
-    <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*u5-PcKYVfUE5s2by.gif" style="width: 100%;" width="100%">
-</div>
-<br/>
 
 > [!NOTE]
-> The neural network is trained on the **MNIST** dataset, which consists of **60,000 training images** and **10,000 test images**. Each image is a **28x28** grayscale image of a handwritten digit. The dataset is preprocessed and saved in CSV format. It can be downloaded from Kaggle at the following link: [MNIST in CSV](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv).
+> Questo progetto non contine alcun testo o video coperto da copyright e utilizzato inpropriamente. L'unica cosa fornita è il nome dell'essercizio e la rispettiva domanda su leetcode. This website helps users locate LeetCode problems that align with exercise titles from popular books and courses, providing a platform to test and refine their solutions to the problems discussed in those materials. No book content is hosted or shared here.
+We fully respect the intellectual property of authors and publishers. This tool serves only as a reference guide to publicly available LeetCode problems and does not reproduce any proprietary material. We do not endorse or encourage any improper use of this list.
+Instead, we strongly encourage users to purchase these books and courses to gain a deeper understanding of the concepts, benefit from detailed explanations, and acquire valuable insights into solving the problems effectively. Supporting the authors and creators ensures access to high-quality educational resources.
 
+> [!WARNING]
+> Non ci assumiamo nessuna responsabilità per un uso improrio di questo materiale e di tutto ciò che lo riguarda. Non ci assumiamo nessuna responsabilità per danni causati a persone e/o oggetti nell'uso del materiale.
+
+<br/>
 <div align="center">
-    <img src="https://datasets.activeloop.ai/wp-content/uploads/2019/12/MNIST-handwritten-digits-dataset-visualized-by-Activeloop.webp" style="width: 100%;" width="100%">
+    <img src="./bg-1.png" style="width: 100%;" width="100%">
 </div>
-
-<br/>  
-<p>
-    
-</p>
 <br/>
-<br/>
-<p>
-
-</p>
-
 <p align="right"><a href="#top">⇧</a></p>
 
-<h2 id="made-in"><br/>🛠  Built in</h2>
-<p>
-    This project is entirely written in C++ and uses the OpenCV for extract the pixels value from the image and nlohmann/json for saving weights and biases in a JSON file.
-</p>
-<p align="center">
-    <a href="https://cplusplus.com">C++</a> • <a href="https://opencv.org">OpenCV</a> • <a href="https://github.com/nlohmann/json">nlohmann/json</a> • <a href="https://cmake.org">cmake</a>
-</p>
-<p align="right"><a href="#top">⇧</a></p>
 
 <h2 id="documentation"><br/><br/>📚  Documentation</h2>
 
-> [!TIP]
-> In the file [mnist_fc128_relu_fc10_log_softmax_weights_biases.json](https://github.com/Piero24/HashTo/blob/main/Resources/output/weights/mnist_fc128_relu_fc10_log_softmax_weights_biases.json) are the weights and biases present in the trained model which allowed to obtain an accuracy of 98%.
-
+<br/>  
 <p>
-   
+    Attualmente i libri corsi o liste di esercizzi inclusi sono:
+    - Cracking the coding interview
+    - Elements of programming (Python, Java, C++, etc...)
+    - Leetcode 75
 </p>
 <p>
-
-</p>
-<p>
-
+    Quelli aggiunti in futuro saranno:
+    - Grokking the coding interview
+    - Neetcode All
+    - AlgoMap
+    - Leetcode 150
+    
 </p>
 
 > [!NOTE]
-> If you have a pythorch model and you want to try this project with yourt weights and biases, you can export them from the `.pt` to `.json` by using the script [ptToJson](https://github.com/Piero24/HashTo/blob/main/src/scripts/ptToJson.py).
+> Ricordiamo nuovamente che nessun materiale coperto da diritto d'autore è presente in questo progetto. L'unico scopo è quello di mappare gli esercizi in problemi di leetcode.
 
-<p>
-    For a broader view it is better to refer the user to the documentation via links: <a href="https://github.com/Piero24/HashTo/blob/main/.github/doc.md">Documentation »</a>
-</p>
-
-> [!WARNING]  
-> The **softmax activation function** is used only in the output layer. Is not possible to use it in the hidden layers.
+<br/>
+<div align="center">
+    <img src="./bg-2.png" style="width: 100%;" width="100%">
+</div>
+<br/>  
 
 
 <p align="right"><a href="#top">⇧</a></p>
@@ -123,7 +108,9 @@
 
 <h2 id="Contributions"><br/>🧰  Contributions</h2>
 <p>
-
+    Le contribuzioni per aiutare lo sviluppo del progetto sono ben accette.
+    Se volete contribuire aggiungendo nuovi libri, corsi o esercizi siete i benvenuti.
+    Seguite la sezione Contribution per vedere come fare.
 </p>
 <br/>
 
@@ -143,10 +130,7 @@
 <br/>
 <br/>
 <p>
-    It is possible to have more information by viewing the following links: 
-    <a href="#code-of-conduct"><strong>Code of conduct</strong></a>
-     • 
-    <a href="#license"><strong>License</strong></a>
+    It is possible to have more information by viewing the following links: <a href="https://github.com/Piero24/HashTo?tab=License-1-ov-file"><strong>License</strong></a>
 </p>
 
 <p align="right"><a href="#top">⇧</a></p>
@@ -173,23 +157,7 @@
 
 <p align="right"><a href="#top">⇧</a></p>
   
- --- 
-
-<h2 id="license"><br/>🔍  License</h2>
-<strong>MIT LICENSE</strong>
-<br/>
-<br/>
-<i>Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including...</i>
-<br/>
-<br/>
-<a href="https://github.com/Piero24/HashTo/blob/main/LICENSE">
-    <strong>License Documentation »</strong>
-</a>
-<br/>
-<p align="right"><a href="#top">⇧</a></p>
-
+--- 
 
 <h3 id="third-party-licenses"><br/>📌  Third Party Licenses</h3>
 
