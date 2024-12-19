@@ -1,20 +1,20 @@
 import React from 'react';
 
-// https://react-icons.github.io/react-icons/
+// Importing React icons for GitHub and Website link
+// Reference: https://react-icons.github.io/react-icons/
 // https://www.npmjs.com/package/react-icons
-import { FaGithub } from "react-icons/fa";
-import { TbWorld } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa"; // GitHub icon
+import { TbWorld } from "react-icons/tb";   // World icon (for website)
 
-import { github_url, website_url} from '../../constants/';
+import Section from '../Section'; // Section component for layout
 
-import Section from '../Section';
 
 const Footer = () => {
-
     return (
         <div>
-            <Section>
+            <Section> {/* Section wrapper for consistent layout */}
                 <div className="bg-color-15 flex justify-center items-center text-color-3 px-10 py-3">
+                    {/* Footer content centered and styled */}
                     <div className="text-center sm:text-left space-y-1">
                         <span>© 2025 Pietrobon Andrea. </span>
                         <span className="block sm:inline">All Rights Reserved.</span>

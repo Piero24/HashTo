@@ -1,19 +1,24 @@
+/* Importing the Inter font family from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* Tailwind CSS Directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Root variables and global styles */
 :root {
-  --font-inter: "Inter", sans-serif;
-  color-scheme: #151515;
-  background-color: #151515;
+  --font-inter: "Inter", sans-serif; /* Defining a custom font variable */
+  color-scheme: #151515; /* Setting the color scheme to dark */
+  background-color: #151515; /* Setting the background color to dark */
 }
 
+/* Global smooth scroll behavior */
 * {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
+/* Card styling */
 .card {
   display: flex;
   flex-direction: column;
@@ -25,30 +30,32 @@
   color: white;
   border-radius: 30px;
   height: 401px;
-  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth transition */
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth scale transition on hover */
 }
 
 .card:hover {
-  transform: scale(1.02); /* Increase size by 5% */
+  transform: scale(1.02); /* Scale up card on hover */
 }
 
+/* Button styling for App-button */
 .App-button {
   padding: 5px 15px;
   background-color: transparent;
-  color: #FFE052;
+  color: #FFE052; /* Golden color for text */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
   border: 3px solid #FFE052;
   border-radius: 14px;
   margin-top: 10px;
-  transition: 0.2s;
+  transition: 0.2s; /* Smooth transition on hover */
 }
 
 .App-button:hover {
-  color: #191e24;
-  background-color: #FFE052;
+  color: #191e24; /* Dark text color on hover */
+  background-color: #FFE052; /* Golden background on hover */
 }
 
+/* HashTo button */
 .buttonHashTo {
   margin: 0;
   height: auto;
@@ -56,27 +63,23 @@
   padding: 0;
   border: none;
   cursor: pointer;
-}
-
-/* button styling */
-.buttonHashTo {
   --border-right: 6px;
   --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #37FF8B;
+  --animation-color: #37FF8B; /* Neon green color for animation */
   --fs-size: 2em;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: 10rem;
   position: relative;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
+  -webkit-text-stroke: 1px var(--text-stroke-color); /* Stroke effect for the text */
 }
 
-/* this is the text, when you hover on button */
+/* Hover effect for HashTo button */
 .hover-text {
   position: absolute;
   box-sizing: border-box;
   content: attr(data-text);
-  color: var(--animation-color);
+  color: var(--animation-color); /* Neon color on hover */
   width: 0%;
   inset: 0;
   border-right: var(--border-right) solid var(--animation-color);
@@ -85,13 +88,13 @@
   -webkit-text-stroke: 1px var(--animation-color);
 }
 
-/* hover */
+/* Hover effect for text inside HashTo button */
 .buttonHashTo:hover .hover-text {
   width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
+  filter: drop-shadow(0 0 23px var(--animation-color)); /* Glowing text on hover */
 }
 
-/* From Uiverse.io by Deri-Kurniawan */ 
+/* Custom styled button from Uiverse.io */
 .buttonHomePage {
   position: relative;
   padding: 10px 28px;
@@ -107,23 +110,26 @@
   transition: all 0.3s ease-in-out;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.35); /* Deeper shadow for hover effect */
 }
 
 .text-shadow {
-  text-shadow: 0px 15px 18px rgba(0, 0, 0, 0.35);
+  text-shadow: 0px 15px 18px rgba(0, 0, 0, 0.35); /* Shadow effect for text */
 }
 
+/* Hover effect for buttonHomePage */
 .buttonHomePage:hover {
   transform: scale(1.05);
   color: #fff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Slight scale and box-shadow on hover */
 }
 
+/* Active state for buttonHomePage */
 .buttonHomePage:active {
-  transform: scale(0.9);
+  transform: scale(0.9); /* Button shrinks on click */
 }
 
+/* Before pseudo-element for buttonHomePage with gradient background */
 .buttonHomePage::before {
   content: "";
   position: absolute;
@@ -131,42 +137,39 @@
   right: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #37FF8B, #379F8B);
+  background: linear-gradient(to right, #37FF8B, #379F8B); /* Gradient effect on hover */
   transition: all 0.4s ease-in-out;
   z-index: -1;
   border-radius: 50px;
 }
 
+/* Hover effect for the before pseudo-element */
 .buttonHomePage:hover::before {
   right: 0;
 }
 
+/* Custom cursor styling */
 .custom-cursor {
   font-size: 2rem; /* Matches the text size (text-4xl = 2.25rem) */
   line-height: 2.5rem; /* Aligns cursor with text */
   color: #00FA9A; /* Tailwind's blue-500 */
 }
 
+/* Responsive adjustments for buttonHashTo font size */
 @media screen and (max-width: 768px) {
-
   .buttonHashTo {
-    font-size: 8rem;
+    font-size: 8rem; /* Adjust font size for medium screens */
   }
-  
 }
 
 @media screen and (max-width: 567px) {
-
   .buttonHashTo {
-    font-size: 6rem;
+    font-size: 6rem; /* Adjust font size for smaller screens */
   }
-  
 }
 
 @media screen and (max-width: 423px) {
-
   .buttonHashTo {
-    font-size: 5rem;
+    font-size: 5rem; /* Adjust font size for very small screens */
   }
-  
 }

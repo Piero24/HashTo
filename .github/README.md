@@ -115,7 +115,7 @@ This tool is provided “as is,” and any damage to property or harm to individ
 <p>
     Contributions to help develop the project are warmly welcomed.  
     If you would like to contribute by adding new books, courses, or exercises, you are more than welcome.  
-    Please refer to the <a href="#contribution" style="text-decoration: none; color: blue;">Contribution</a> section to see how to proceed.
+    Please refer to the <a href="https://github.com/Piero24/HashTo/blob/main/.github/Contributions.md" style="text-decoration: none; color: blue;">Contribution</a> section to see how to proceed.
 </p>
 <br/>
 

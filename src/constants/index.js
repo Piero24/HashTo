@@ -1,23 +1,27 @@
+// Navigation menu items with unique IDs, titles, and URLs
 export const navigation = [
     {
-        id: 0,
-        title: 'Home',
-        url: '/'
+        id: 0, // Unique identifier for the 'Home' page
+        title: 'Home', // Display title for the navigation link
+        url: '/', // URL for the 'Home' page
     },
     {
-        id: 1,
-        title: 'Resources',
-        url: '/Resources'
+        id: 1, // Unique identifier for the 'Resources' page
+        title: 'Resources', // Display title for the 'Resources' page link
+        url: '/Resources', // URL for the 'Resources' page
     },
 ];
 
-export const cheetsheet = '';
+// Placeholder for cheatsheet (currently empty)
+export const cheatsheet = ''; // This could be populated with a cheatsheet URL or content
 
-export const instagram_url = 'https://www.instagram.com/andreapietrobon/';
-export const twitter_url = 'https://x.com/PietrobonAndrea';
-export const linkedin_url = 'https://www.linkedin.com/in/pietrobonandrea/';
-export const github_url = 'https://github.com/Piero24';
-export const huggingface_url = 'https://huggingface.co/Piero2411';
-export const website_url = 'https://www.pietrobonandrea.com';
+// Social media and website URLs for the user
+export const instagram_url = 'https://www.instagram.com/andreapietrobon/'; // Instagram profile URL
+export const twitter_url = 'https://x.com/PietrobonAndrea'; // Twitter profile URL (formerly X)
+export const linkedin_url = 'https://www.linkedin.com/in/pietrobonandrea/'; // LinkedIn profile URL
+export const github_url = 'https://github.com/Piero24'; // GitHub profile URL
+export const huggingface_url = 'https://huggingface.co/Piero2411'; // Hugging Face profile URL
+export const website_url = 'https://www.pietrobonandrea.com'; // Personal website URL
 
-export const github_project_url = 'https://github.com/Piero24/HashTo';
+// URL for the specific GitHub project
+export const github_project_url = 'https://github.com/Piero24/HashTo'; // URL of the 'HashTo' project on GitHub

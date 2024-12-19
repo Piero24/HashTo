@@ -1,9 +1,9 @@
-import ctciCover from '../assets/ctci.jpg';
-import eopiCover from '../assets/eopi.jpg';
-import gtciCover from '../assets/gtci.png';
-import neetcodeCover from '../assets/neetcode.png';
-import algomapCover from '../assets/algomap.png';
-import leetcode75Cover from '../assets/lt75.png';
+import ctciCover from '../assets/webp/books/ctci.webp';
+import eopiCover from '../assets/webp/books/eopi.webp';
+import gtciCover from '../assets/webp/courses/gtci.webp';
+import neetcodeCover from '../assets/webp/lists/neetcode.webp';
+import algomapCover from '../assets/webp/lists/algomap.webp';
+import leetcode75Cover from '../assets/webp/lists/lt75.webp';
 
 
 export const books = [

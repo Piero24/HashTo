@@ -126,7 +126,7 @@ Once you’ve completed the steps, you can create a pull request specifying whic
 
 🎉 And that’s it! In just a few simple steps, you’ve successfully contributed to this project. 🚀👏
 
-## Add a new book
+## Contributing by adding a new book
 The last method is to directly add a new book along with the corresponding mapping of questions and videos. 📘🛠️ The process is very similar:
 
 1. Create a file with the abbreviation of the book’s title in the docs folder.
