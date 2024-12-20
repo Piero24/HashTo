@@ -164,7 +164,7 @@ export const books = [
             `,
         amazon: [],
         link: "https://www.designgurus.io/course/grokking-the-coding-interview?gad_source=1&gclid=CjwKCAiA34S7BhAtEiwACZzv4Vsr59xJb4u756LzRqPdKuUMcs8SiYPt8Bn4MT8MxzygeWPg2vGpcRoCYH8QAvD_BwE",
-        hidden: false,
+        hidden: true,
         map: true,
     },
     {
@@ -177,7 +177,7 @@ export const books = [
         intro: "Arrays and Strings...",
         amazon: [],
         link: "https://neetcode.io/pro",
-        hidden: false,
+        hidden: true,
         map: false,
     },
     {
@@ -190,7 +190,7 @@ export const books = [
         intro: "Arrays and Strings...",
         amazon: [],
         link: "https://algomap.io/bootcamp",
-        hidden: false,
+        hidden: true,
         map: false,
     },
     {
