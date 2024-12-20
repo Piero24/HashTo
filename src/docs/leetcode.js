@@ -477,6 +477,15 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 104,
+        category_title: "N/A",
+        title: "Maximum Depth of Binary Tree",
+        link: "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=hTM3phVI6YQ&pp=ygUMbGVldGNvZGUgMTA0",
+        premium: false
+    },
+    {
         id: 105,
         category_title: "N/A",
         title: "Construct Binary Tree from Preorder and Inorder Traversal",
@@ -594,6 +603,15 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 136,
+        category_title: "N/A",
+        title: "Single Number",
+        link: "https://leetcode.com/problems/single-number",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=qMPX1AOa83k&pp=ygUMbGVldGNvZGUgMTM2",
+        premium: false,
+    },
+    {
         id: 139,
         category_title: "N/A",
         title: "Word Break",
@@ -666,6 +684,15 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 151,
+        category_title: "N/A",
+        title: "Reverse Words in a String",
+        link: "https://leetcode.com/problems/reverse-words-in-a-string",
+        level: "Medium",
+        video: "N/A",
+        premium: false,
+    },
+    {
         id: 155,
         category_title: "N/A",
         title: "Min Stack",
@@ -691,6 +718,15 @@ export const leetcode_questions = [
         level: "Medium",
         video: "N/A",
         premium: true,
+    },
+    {
+        id: 162,
+        category_title: "N/A",
+        title: "Find Peak Element",
+        link: "https://leetcode.com/problems/find-peak-element",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=kMzJy9es7Hc&pp=ygUMbGVldGNvZGUgMTYx",
+        premium: false,
     },
     {
         id: 169,
@@ -756,6 +792,15 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 199,
+        category_title: "N/A",
+        title: "Binary Tree Right Side View",
+        link: "https://leetcode.com/problems/binary-tree-right-side-view",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=d4zLyf32e3I&pp=ygUMbGVldGNvZGUgMTk5",
+        premium: false
+    },
+    {
         id: 200,
         category_title: "N/A",
         title: "Number of Islands",
@@ -783,6 +828,15 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 208,
+        category_title: "N/A",
+        title: "Implement Trie (Prefix Tree)",
+        link: "https://leetcode.com/problems/implement-trie-prefix-tree",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=oobqoCJlHA0&pp=ygUMbGVldGNvZGUgMjA4",
+        premium: false,
+    },
+    {
         id: 210,
         category_title: "N/A",
         title: "Course Schedule II",
@@ -798,6 +852,15 @@ export const leetcode_questions = [
         link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
         level: "Medium",
         video: "https://www.youtube.com/watch?v=XEmy13g1Qxc&pp=ygUMbGVldGNvZGUgMjE1",
+        premium: false,
+    },
+    {
+        id: 216,
+        category_title: "N/A",
+        title: "Combination Sum III",
+        link: "https://leetcode.com/problems/combination-sum-iii",
+        level: "Medium",
+        video: "N/A",
         premium: false,
     },
     {
@@ -870,6 +933,15 @@ export const leetcode_questions = [
         link: "https://leetcode.com/problems/delete-node-in-a-linked-list/",
         level: "Medium",
         video: "N/A",
+        premium: false,
+    },
+    {
+        id: 238,
+        category_title: "N/A",
+        title: "Product of Array Except Self",
+        link: "https://leetcode.com/problems/product-of-array-except-self",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=bNvIQI2wAjk&pp=ygUMbGVldGNvZGUgMjM4",
         premium: false,
     },
     {
@@ -954,6 +1026,15 @@ export const leetcode_questions = [
         premium: true,
     },
     {
+        id: 283,
+        category_title: "N/A",
+        title: "Move Zeroes",
+        link: "https://leetcode.com/problems/move-zeroes",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=aayNRwUN3Do&pp=ygUMbGVldGNvZGUgMjgz",
+        premium: false,
+    },
+    {
         id: 285,
         category_title: "N/A",
         title: "Inorder Successor in BST",
@@ -1004,6 +1085,33 @@ export const leetcode_questions = [
         title: "Odd Even Linked List",
         link: "https://leetcode.com/problems/odd-even-linked-list/",
         level: "Medium",
+        video: "https://www.youtube.com/watch?v=YE9ggKeHeK0&pp=ygUMbGVldGNvZGUgMzI4", // Tech Dose
+        premium: false,
+    },
+    {
+        id: 334,
+        category_title: "N/A",
+        title: "Increasing Triplet Subsequence",
+        link: "https://leetcode.com/problems/increasing-triplet-subsequence/description",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=i340M1N4i8Y&pp=ygUMbGVldGNvZGUgMzM0", // Tech Dose
+        premium: false,
+    },
+    {
+        id: 338,
+        category_title: "N/A",
+        title: "Counting Bits",
+        link: "https://leetcode.com/problems/counting-bits",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=RyBM56RIWrM&pp=ygUMbGVldGNvZGUgMzM4",
+        premium: false,
+    },
+    {
+        id: 345,
+        category_title: "N/A",
+        title: "Reverse Vowels of a String",
+        link: "https://leetcode.com/problems/reverse-vowels-of-a-string",
+        level: "Easy",
         video: "N/A",
         premium: false,
     },
@@ -1014,6 +1122,15 @@ export const leetcode_questions = [
         link: "https://leetcode.com/problems/sum-of-two-integers/",
         level: "Medium",
         video: "https://www.youtube.com/watch?v=gVUrDV4tZfY&pp=ygUMbGVldGNvZGUgMzcx",
+        premium: false,
+    },
+    {
+        id: 374,
+        category_title: "N/A",
+        title: "Guess Number Higher or Lower",
+        link: "https://leetcode.com/problems/guess-number-higher-or-lower",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=xW4QsTtaCa4&pp=ygUMbGVldGNvZGUgMzc0",
         premium: false,
     },
     {
@@ -1036,11 +1153,38 @@ export const leetcode_questions = [
     },
     {
         id: 384,
-        category_title: "Medium",
+        category_title: "N/A",
         title: "Shuffle an Array",
         link: "https://leetcode.com/problems/shuffle-an-array/",
         level: "Medium",
         video: "N/A",
+        premium: false,
+    },
+    {
+        id: 392,
+        category_title: "N/A",
+        title: "Is Subsequence",
+        link: "https://leetcode.com/problems/is-subsequence",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=99RVfqklbCE&pp=ygUMbGVldGNvZGUgMzky",
+        premium: false,
+    },
+    {
+        id: 394,
+        category_title: "N/A",
+        title: "Decode String",
+        link: "https://leetcode.com/problems/decode-string",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=qB0zZpBJlh8&pp=ygUMbGVldGNvZGUgMzk0",
+        premium: false,
+    },
+    {
+        id: 399,
+        category_title: "N/A",
+        title: "Evaluate Division",
+        link: "https://leetcode.com/problems/evaluate-division",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=Uei1fwDoyKk&pp=ygUMbGVldGNvZGUgMzk5",
         premium: false,
     },
     {
@@ -1051,6 +1195,15 @@ export const leetcode_questions = [
         level: "Medium",
         video: "N/A",
         premium: true,
+    },
+    {
+        id: 435,
+        category_title: "N/A",
+        title: "Non-overlapping Intervals",
+        link: "https://leetcode.com/problems/non-overlapping-intervals",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=nONCGxWoUfM&pp=ygUMbGVldGNvZGUgNDM1",
+        premium: false,
     },
     {
         id: 437,
@@ -1077,6 +1230,24 @@ export const leetcode_questions = [
         link: "https://leetcode.com/problems/add-two-numbers-ii/",
         level: "Medium",
         video: "N/A",
+        premium: false,
+    },
+    {
+        id: 450,
+        category_title: "N/A",
+        title: "Delete Node in a BST",
+        link: "https://leetcode.com/problems/delete-node-in-a-bst",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=LFzAoJJt92M&pp=ygUMbGVldGNvZGUgNDUw",
+        premium: false,
+    },
+    {
+        id: 452,
+        category_title: "N/A",
+        title: "Minimum Number of Arrows to Burst Balloons",
+        link: "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=lPmkKnvNPrw&pp=ygUMbGVldGNvZGUgNDUy",
         premium: false,
     },
     {
@@ -1143,6 +1314,15 @@ export const leetcode_questions = [
         premium: true,
     },
     {
+        id: 547,
+        category_title: "N/A",
+        title: "Number of Provinces",
+        link: "https://leetcode.com/problems/number-of-provinces",
+        level: "Medium",
+        video: "N/A",
+        premium: false,
+    },
+    {
         id: 567,
         category_title: "N/A",
         title: "Permutation in String",
@@ -1170,12 +1350,48 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 605,
+        category_title: "N/A",
+        title: "Can Place Flowers",
+        link: "https://leetcode.com/problems/can-place-flowers",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=ZGxqqjljpUI&pp=ygUMbGVldGNvZGUgNjA1",
+        premium: false,
+    },
+    {
         id: 622,
         category_title: "N/A",
         title: "Design Circular Queue",
         link: "https://leetcode.com/problems/design-circular-queue/",
         level: "Medium",
         video: "https://www.youtube.com/watch?v=aBbsfn863oA&pp=ygUMbGVldGNvZGUgNjIy",
+        premium: false,
+    },
+    {
+        id: 643,
+        category_title: "N/A",
+        title: "Maximum Average Subarray I",
+        link: "https://leetcode.com/problems/maximum-average-subarray-i",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=UdUUnoiLkPg&pp=ygUMbGVldGNvZGUgNjQz", //Greg Hogg
+        premium: false
+    },
+    {
+        id: 649,
+        category_title: "N/A",
+        title: "Dota2 Senate",
+        link: "https://leetcode.com/problems/dota2-senate",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=zZA5KskfMuQ&pp=ygUMbGVldGNvZGUgNjQ5",
+        premium: false
+    },
+    {
+        id: 700,
+        category_title: "N/A",
+        title: "Search in a Binary Search Tree",
+        link: "https://leetcode.com/problems/search-in-a-binary-search-tree",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=Lr2oxJlnLMM&pp=ygUMbGVldGNvZGUgNzAw", // Tech Dose
         premium: false,
     },
     {
@@ -1197,6 +1413,24 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 714,
+        category_title: "N/A",
+        title: "Best Time to Buy and Sell Stock with Transaction Fee",
+        link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 724,
+        category_title: "N/A",
+        title: "Find Pivot Index",
+        link: "https://leetcode.com/problems/find-pivot-index",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=u89i60lYx8U&pp=ygUMbGVldGNvZGUgNzI0",
+        premium: false
+    },
+    {
         id: 727,
         category_title: "N/A",
         title: "Minimum Window Subsequence",
@@ -1211,6 +1445,42 @@ export const leetcode_questions = [
         title: "Flood Fill",
         link: "https://leetcode.com/problems/flood-fill/",
         level: "Easy",
+        video: "https://www.youtube.com/watch?v=RwozX--B_Xs&pp=ygUMbGVldGNvZGUgNzMz", // Tech Dose
+        premium: false,
+    },
+    {
+        id: 735,
+        category_title: "N/A",
+        title: "Asteroid Collision",
+        link: "https://leetcode.com/problems/asteroid-collision",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=LN7KjRszjk4&pp=ygUMbGVldGNvZGUgNzM1",
+        premium: false,
+    },
+    {
+        id: 739,
+        category_title: "N/A",
+        title: "Daily Temperatures",
+        link: "https://leetcode.com/problems/daily-temperatures",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=cTBiBSnjO3c&pp=ygUMbGVldGNvZGUgNzM5",
+        premium: false,
+    },
+    {
+        id: 746,
+        category_title: "N/A",
+        title: "Min Cost Climbing Stairs",
+        link: "https://leetcode.com/problems/min-cost-climbing-stairs",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=ktmzAZWkEZ0&pp=ygUMbGVldGNvZGUgNzQ2",
+        premium: false,
+    },
+    {
+        id: 790,
+        category_title: "N/A",
+        title: "Domino and Tromino Tiling",
+        link: "https://leetcode.com/problems/domino-and-tromino-tiling",
+        level: "Medium",
         video: "N/A",
         premium: false,
     },
@@ -1233,6 +1503,33 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 841,
+        category_title: "N/A",
+        title: "Keys and Rooms",
+        link: "https://leetcode.com/problems/keys-and-rooms",
+        level: "Medium",
+        video: "N/A",
+        premium: false,
+    },
+    {
+        id: 872,
+        category_title: "N/A",
+        title: "Leaf-Similar Trees",
+        link: "https://leetcode.com/problems/leaf-similar-trees",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=Nr8dbnL0_cM&pp=ygUMbGVldGNvZGUgODcy",
+        premium: false
+    },
+    {
+        id: 875,
+        category_title: "N/A",
+        title: "Koko Eating Bananas",
+        link: "https://leetcode.com/problems/koko-eating-bananas",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=U2SozAs9RzA&pp=ygUMbGVldGNvZGUgODc1",
+        premium: false
+    },
+    {
         id: 876,
         category_title: "N/A",
         title: "Middle of the Linked List",
@@ -1251,6 +1548,24 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 901,
+        category_title: "N/A",
+        title: "Online Stock Span",
+        link: "https://leetcode.com/problems/online-stock-span",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=slYh0ZNEqSw&pp=ygUMbGVldGNvZGUgOTAx",
+        premium: false
+    },
+    {
+        id: 933,
+        category_title: "N/A",
+        title: "Number of Recent Calls",
+        link: "https://leetcode.com/problems/number-of-recent-calls",
+        level: "Easy",
+        video: "N/A",
+        premium: false
+    },
+    {
         id: 973,
         category_title: "N/A",
         title: "K Closest Points to Origin",
@@ -1258,6 +1573,24 @@ export const leetcode_questions = [
         level: "Medium",
         video: "https://www.youtube.com/watch?v=rI2EBUEMfTk&pp=ygUMbGVldGNvZGUgOTcz",
         premium: false,
+    },
+    {
+        id: 994,
+        category_title: "N/A",
+        title: "Rotting Oranges",
+        link: "https://leetcode.com/problems/rotting-oranges",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=y704fEOx0s0&pp=ygUMbGVldGNvZGUgOTk0",
+        premium: false
+    },
+    {
+        id: 1004,
+        category_title: "N/A",
+        title: "Max Consecutive Ones III",
+        link: "https://leetcode.com/problems/max-consecutive-ones-iii",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=HsGKI02yw6M&pp=ygUNbGVldGNvZGUgMTAwNA%3D%3D", // Greg Hogg
+        premium: false
     },
     {
         id: 1020,
@@ -1278,6 +1611,15 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 1071,
+        category_title: "N/A",
+        title: "Greatest Common Divisor of Strings",
+        link: "https://leetcode.com/problems/greatest-common-divisor-of-strings",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=i5I_wrbUdzM&pp=ygUNbGVldGNvZGUgMTA3MQ%3D%3D",
+        premium: false,
+    },
+    {
         id: 1137,
         category_title: "N/A",
         title: "N-th Tribonacci Number",
@@ -1285,6 +1627,24 @@ export const leetcode_questions = [
         level: "Easy",
         video: "https://www.youtube.com/watch?v=3lpNp5Ojvrw&pp=ygUNbGVldGNvZGUgMTEzNw%3D%3D",
         premium: false,
+    },
+    {
+        id: 1143,
+        category_title: "N/A",
+        title: "Longest Common Subsequence",
+        link: "https://leetcode.com/problems/longest-common-subsequence",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=Ua0GhsJSlWM&pp=ygUNbGVldGNvZGUgMTE0Mw%3D%3D",
+        premium: false
+    },
+    {
+        id: 1161,
+        category_title: "N/A",
+        title: "Maximum Level Sum of a Binary Tree",
+        link: "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree",
+        level: "Medium",
+        video: "N/A",
+        premium: false
     },
     {
         id: 1172,
@@ -1296,6 +1656,24 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 1207,
+        category_title: "N/A",
+        title: "Unique Number of Occurrences",
+        link: "https://leetcode.com/problems/unique-number-of-occurrences",
+        level: "Easy",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1268,
+        category_title: "N/A",
+        title: "Search Suggestions System",
+        link: "https://leetcode.com/problems/search-suggestions-system",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=D4T2N0yAr20&pp=ygUNbGVldGNvZGUgMTI2OA%3D%3D",
+        premium: false
+    },
+    {
         id: 1275,
         category_title: "N/A",
         title: "Find Winner on a Tic Tac Toe Game",
@@ -1305,6 +1683,24 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 1318,
+        category_title: "N/A",
+        title: "Minimum Flips to Make a OR b Equal to c",
+        link: "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c",
+        level: "Medium",
+        video: "N/A",
+        premium: false,
+    },
+    {
+        id: 1372,
+        category_title: "N/A",
+        title: "Longest ZigZag Path in a Binary Tree",
+        link: "https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
         id: 1410,
         category_title: "N/A",
         title: "HTML Entity Parser",
@@ -1312,6 +1708,51 @@ export const leetcode_questions = [
         level: "Medium",
         video: "N/A",
         premium: false,
+    },
+    {
+        id: 1431,
+        category_title: "N/A",
+        title: "Kids With the Greatest Number of Candies",
+        link: "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies",
+        level: "Easy",
+        video: "N/A",
+        premium: false,
+    },
+    {
+        id: 1448,
+        category_title: "N/A",
+        title: "Count Good Nodes in Binary Tree",
+        link: "https://leetcode.com/problems/count-good-nodes-in-binary-tree",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=7cp5imvDzl4&pp=ygUNbGVldGNvZGUgMTQ0OA%3D%3D",
+        premium: false
+    },
+    {
+        id: 1456,
+        category_title: "N/A",
+        title: "Maximum Number of Vowels in a Substring of Given Length",
+        link: "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=kEfPSzgL-Ss&pp=ygUNbGVldGNvZGUgMTQ1Ng%3D%3D",
+        premium: false
+    },
+    {
+        id: 1466,
+        category_title: "N/A",
+        title: "Reorder Routes to Make All Paths Lead to the City Zero",
+        link: "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=m17yOR5_PpI&pp=ygUNbGVldGNvZGUgMTQ2Ng%3D%3D",
+        premium: false
+    },
+    {
+        id: 1493,
+        category_title: "N/A",
+        title: "Longest Subarray of 1's After Deleting One Element",
+        link: "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element",
+        level: "Medium",
+        video: "N/A",
+        premium: false
     },
     {
         id: 1569,
@@ -1332,6 +1773,15 @@ export const leetcode_questions = [
         premium: true,
     },
     {
+        id: 1657,
+        category_title: "N/A",
+        title: "Determine if Two Strings Are Close",
+        link: "https://leetcode.com/problems/determine-if-two-strings-are-close",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
         id: 1679,
         category_title: "N/A",
         title: "Max Number of K-Sum Pairs",
@@ -1350,6 +1800,24 @@ export const leetcode_questions = [
         premium: false,
     },
     {
+        id: 1732,
+        category_title: "N/A",
+        title: "Find the Highest Altitude",
+        link: "https://leetcode.com/problems/find-the-highest-altitude",
+        level: "Easy",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1768,
+        category_title: "N/A",
+        title: "Merge Strings Alternately",
+        link: "https://leetcode.com/problems/merge-strings-alternately",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=LECWOvTo-Sc&pp=ygUNbGVldGNvZGUgMTc2OA%3D%3D",
+        premium: false,
+    },
+    {
         id: 1836,
         category_title: "N/A",
         title: "Remove Duplicates from an Unsorted Linked List",
@@ -1357,6 +1825,15 @@ export const leetcode_questions = [
         level: "Medium",
         video: "N/A",
         premium: true,
+    },
+    {
+        id: 1926,
+        category_title: "N/A",
+        title: "Nearest Exit from Entrance in Maze",
+        link: "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze",
+        level: "Medium",
+        video: "N/A",
+        premium: false,
     },
     {
         id: 1971,
@@ -1367,4 +1844,85 @@ export const leetcode_questions = [
         video: "https://www.youtube.com/watch?v=knLFe7hEp3Y&pp=ygUNbGVldGNvZGUgMTk3MQ%3D%3D", // Greg Hogg
         premium: false,
     },
+    {
+        id: 2095,
+        category_title: "N/A",
+        title: "Delete the Middle Node of a Linked List",
+        link: "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 2130,
+        category_title: "N/A",
+        title: "Maximum Twin Sum of a Linked List",
+        link: "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=doj95MelfSA&pp=ygUNbGVldGNvZGUgMjEzMA%3D%3D",
+        premium: false
+    },
+    {
+        id: 2215,
+        category_title: "N/A",
+        title: "Find the Difference of Two Arrays",
+        link: "https://leetcode.com/problems/find-the-difference-of-two-arrays",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=a4wqKR-znBE&pp=ygUNbGVldGNvZGUgMjIxNQ%3D%3D",
+        premium: false
+    },
+    {
+        id: 2300,
+        category_title: "N/A",
+        title: "Successful Pairs of Spells and Potions",
+        link: "https://leetcode.com/problems/successful-pairs-of-spells-and-potions",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=OKnm5oyAhWg&pp=ygUNbGVldGNvZGUgMjMwMA%3D%3D",
+        premium: false
+    },
+    {
+        id: 2336,
+        category_title: "N/A",
+        title: "Smallest Number in Infinite Set",
+        link: "https://leetcode.com/problems/smallest-number-in-infinite-set",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 2352,
+        category_title: "N/A",
+        title: "Equal Row and Column Pairs",
+        link: "https://leetcode.com/problems/equal-row-and-column-pairs",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=-OHonWVfjM0&pp=ygUNbGVldGNvZGUgMjM1Mg%3D%3D", // Tech Dose
+        premium: false
+    },
+    {
+        id: 2390,
+        category_title: "N/A",
+        title: "Removing Stars From a String",
+        link: "https://leetcode.com/problems/removing-stars-from-a-string",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=pRyFZIaKegA&pp=ygUNbGVldGNvZGUgMjM5MA%3D%3D",
+        premium: false
+    },
+    {
+        id: 2462,
+        category_title: "N/A",
+        title: "Total Cost to Hire K Workers",
+        link: "https://leetcode.com/problems/total-cost-to-hire-k-workers",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 2542,
+        category_title: "N/A",
+        title: "Maximum Subsequence Score",
+        link: "https://leetcode.com/problems/maximum-subsequence-score",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=ax1DKi5lJwk&pp=ygUNbGVldGNvZGUgMjU0Mg%3D%3D",
+        premium: false
+    }
 ];
