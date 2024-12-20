@@ -28,6 +28,7 @@ const ResourcesSection1 = () => {
                             src={BookImage}
                             alt="Illustration of a book"
                             className="max-h-full w-auto"
+                            loading="eager"
                         />
                     </div>
                 </div>
