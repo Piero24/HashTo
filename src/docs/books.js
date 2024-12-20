@@ -222,7 +222,7 @@ export const books = [
             </p>
         `,
         amazon: [],
-        link: "https://leetcode.com/studyplan/leetcode-75/",
+        link: "https://leetcode.com/subscribe/?ref=lp_pl&source=sp",
         hidden: false,
         map: false,
     },
