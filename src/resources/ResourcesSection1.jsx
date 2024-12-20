@@ -27,8 +27,9 @@ const ResourcesSection1 = () => {
                         <img 
                             src={BookImage}
                             alt="Illustration of a book"
-                            className="max-h-full w-auto"
-                            loading="lazy"
+                            className="max-h-full w-auto imgSafari"
+                            width="1350"
+                            height="800"
                         />
                     </div>
                 </div>

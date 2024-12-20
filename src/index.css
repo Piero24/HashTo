@@ -173,3 +173,7 @@
     font-size: 5rem; /* Adjust font size for very small screens */
   }
 }
+
+.imgSafari {
+  -webkit-transform: translateZ(0);
+}
