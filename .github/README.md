@@ -161,4 +161,4 @@ This tool is provided “as is,” and any damage to property or harm to individ
 <p align="right"><a href="#top">⇧</a></p>
 
 ---
-> *<p align="center"> Copyrright (C) by Pietrobon Andrea <br/> Released date: 05-01-2025*
+> *<p align="center"> Copyrright (C) by Pietrobon Andrea <br/> Released date: 20-12-2024*
