@@ -24,11 +24,13 @@ const ResourcesSection1 = () => {
                 {/* Right Panel: Display Image */}
                 <div className="flex justify-center items-center">
                     <div className="image-container opacity-90 px-5 md:px-32 lg:px-10">
-                        <img 
-                            src={BookImage}
+                        <link
+                            rel="preload"
+                            as="image"
+                            href={BookImage}
+                            type="image/webp" 
                             alt="Illustration of a book"
                             className="max-h-full w-auto"
-                            loading="eager"
                         />
                     </div>
                 </div>
