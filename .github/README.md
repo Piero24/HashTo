@@ -1,5 +1,3 @@
-<!-- **WEBSITE** -->
-
 <div id="top"></div>
 <br/>
 <br/>
@@ -37,7 +35,7 @@
 <p align="center">
     A Website for mapping exercises from famous books or courses into leetcode problems.
     <br/>
-    <a href="**WEBSITE**"><strong>Visit Website »</strong></a>
+    <a href="https://hashto.net"><strong>Visit Website »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/Piero24/HashTo/issues">Report Bug</a>
