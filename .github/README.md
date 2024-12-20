@@ -3,7 +3,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Piero24/HashTo/2f8526908d337f0fb829211b930709d77cf32b04/src/assets/logo.svg?token=AHZS2P2QQACXAQND47V7GYDHMQCEU" width="105" height="100">
+  <img src="https://raw.githubusercontent.com/Piero24/HashTo/0e1a4ed821c6c2a7a990bac20aad04003c3fc9e8/src/assets/logo.svg" width="105" height="100">
 </p>
 <h1 align="center">
     <a href="https://github.com/Piero24/HashTo">HashTo</a>
@@ -57,7 +57,7 @@
 </p>
 <br/>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Piero24/HashTo/refs/heads/main/.github/bg-1.png?token=GHSAT0AAAAAACXVXBSVRYYALTD4MHZWCBHSZ3EFFPA" style="width: 100%;" width="100%">
+    <img src="https://raw.githubusercontent.com/Piero24/HashTo/refs/heads/main/.github/bg-1.png" style="width: 100%;" width="100%">
 </div>
 <br/>
 <p>
@@ -101,7 +101,7 @@ This tool is provided “as is,” and any damage to property or harm to individ
 
 <br/>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Piero24/HashTo/refs/heads/main/.github/bg-2.png?token=GHSAT0AAAAAACXVXBSUBNZ27EGASA457IJUZ3EFFXQ" style="width: 100%;" width="100%">
+    <img src="https://raw.githubusercontent.com/Piero24/HashTo/refs/heads/main/.github/bg-2.png" style="width: 100%;" width="100%">
 </div>
 <br/>  
 
