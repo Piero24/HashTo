@@ -14,7 +14,7 @@ const ResourcesSection1 = () => {
         <Section>
             <div className="lg:flex">
                 {/* Left Panel: Heading and Typing Effect */}
-                <div className="flex flex-col justify-center items-center md:items-start h-[45.5vh] lg:h-[90.5vh] md:px-20">
+                <div className="flex flex-col justify-center items-center md:items-start h-[45.5vh] lg:h-[90.5vh] md:px-20 max-h-[1300px]"> 
                     <h1 className="text-[4rem] md:text-[6rem] xl:text-[8rem] font-bold text-white leading-none">
                         Exercises
                     </h1>
@@ -24,13 +24,11 @@ const ResourcesSection1 = () => {
                 {/* Right Panel: Display Image */}
                 <div className="flex justify-center items-center">
                     <div className="image-container opacity-90 px-5 md:px-32 lg:px-10">
-                        <link
-                            rel="preload"
-                            as="image"
-                            href={BookImage}
-                            type="image/webp" 
+                        <img 
+                            src={BookImage}
                             alt="Illustration of a book"
                             className="max-h-full w-auto"
+                            loading="eager"
                         />
                     </div>
                 </div>
