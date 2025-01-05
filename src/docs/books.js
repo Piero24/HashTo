@@ -144,7 +144,7 @@ export const books = [
     {
         id: 2,
         title: "Grokking the Coding Interview",
-        authors: [],
+        authors: ["Design Gurus"],
         short_intro: "Coding interviews are getting harder every day. A few years back, brushing up on key data structures and going through 50-75 coding ",
         cover: gtciCover,
         path: "gci",
@@ -164,7 +164,7 @@ export const books = [
             `,
         amazon: [],
         link: "https://www.designgurus.io/course/grokking-the-coding-interview?gad_source=1&gclid=CjwKCAiA34S7BhAtEiwACZzv4Vsr59xJb4u756LzRqPdKuUMcs8SiYPt8Bn4MT8MxzygeWPg2vGpcRoCYH8QAvD_BwE",
-        hidden: true,
+        hidden: false,
         map: true,
     },
     {

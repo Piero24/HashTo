@@ -84,12 +84,12 @@ This tool is provided “as is,” and any damage to property or harm to individ
         <li>Cracking the Coding Interview</li>
         <li>Elements of Programming (Python, Java, C++, etc.)</li>
         <li>LeetCode 75</li>
+        <li>Grokking the Coding Interview</li>
     </ul>
 </p>
 <p>
     Those to be added in the future are:
     <ul>
-        <li>Grokking the Coding Interview</li>
         <li>Neetcode All</li>
         <li>AlgoMap</li>
         <li>LeetCode 150</li>
