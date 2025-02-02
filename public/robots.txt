@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hashto.net/sitemap.xml
