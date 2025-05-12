@@ -8,8 +8,9 @@ import { useNavigate } from 'react-router-dom';
 // https://www.npmjs.com/package/react-icons
 import { FaGithub } from "react-icons/fa"; // GitHub icon
 import { TbWorld } from "react-icons/tb"; // World icon (for website link)
+import { HiDownload } from "react-icons/hi";
 
-import { github_project_url, website_url} from '../../constants/';
+import { github_project_url, website_url, cheatsheet} from '../../constants/';
 
 import Section from '../Section'; // Section component for consistent layout
 
@@ -46,9 +47,9 @@ const Navbar = () => {
                                     {/* Website link icon */}
                                     <div className="transform transition duration-300 hover:scale-110 hover:text-color-4">
                                         <a 
-                                            href={`${website_url}`} // Navigate to external website
+                                            href={`${cheatsheet}`} // Navigate to external website
                                         >
-                                            <TbWorld />
+                                            <HiDownload />
                                         </a>
                                     </div>
                                     {/* GitHub project link icon */}

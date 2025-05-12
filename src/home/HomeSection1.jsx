@@ -3,6 +3,8 @@ import React from 'react';
 // Importing the LeetCode icon from react-icons
 import { SiLeetcode } from "react-icons/si";
 
+import { cheatsheet } from '../constants/';
+
 // Importing the Section component for consistent layout
 import Section from '../components/Section';
 
@@ -34,15 +36,20 @@ const HomeSection1 = () => {
                             </div>
 
                             {/* Button that navigates to the Resources page */}
-                            <div className='flex justify-center w-[70%] mt-12'>
-                                <button 
-                                    onClick={() => window.location.href = '/Resources'} // Navigates to Resources page on click
-                                    className="buttonHomePage"
+                            <div className='flex justify-center w-[70%] mt-12 flex-wrap gap-8 md:gap-24'>
+                                <button
+                                    onClick={() => window.location.href = '/Resources'}
+                                    className="buttonHomePage buttonHomePage1"
                                 >
-                                        Exercises
+                                    Exercises
                                 </button>
-                                {/* Placeholder for another button (currently commented out) */}
-                                {/* <button className="buttonHomePage">Cheet Sheet</button> */}
+
+                                <button
+                                    onClick={() => window.open(cheatsheet, '_blank')}
+                                    className="buttonHomePage buttonHomePage2"
+                                >
+                                    Cheet Sheet
+                                </button>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ export const navigation = [
 ];
 
 // Placeholder for cheatsheet (currently empty)
-export const cheatsheet = ''; // This could be populated with a cheatsheet URL or content
+export const cheatsheet = 'https://drive.google.com/uc?export=download&id=1jOP6qP5K1He6HssoYhw78FGHoGlHv8To';
 
 // Social media and website URLs for the user
 export const instagram_url = 'https://www.instagram.com/andreapietrobon/'; // Instagram profile URL
