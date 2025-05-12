@@ -48,7 +48,7 @@ const HomeSection1 = () => {
                                     onClick={() => window.open(cheatsheet, '_blank')}
                                     className="buttonHomePage buttonHomePage2"
                                 >
-                                    Cheet Sheet
+                                    Cheat Sheet
                                 </button>
                             </div>
                         </div>
