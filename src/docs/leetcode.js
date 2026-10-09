@@ -1139,7 +1139,7 @@ export const leetcode_questions = [
         title: "Delete Node in a Linked List",
         link: "https://leetcode.com/problems/delete-node-in-a-linked-list/",
         level: "Medium",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=bJPmNKMtjdk",
         premium: false,
     },
     {
@@ -2642,7 +2642,7 @@ export const leetcode_questions = [
         title: "Add Binary",
         link: "https://leetcode.com/problems/add-binary/",
         level: "Easy",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=keuWJ47xG8g",
         premium: false
     },
     {
@@ -2651,7 +2651,7 @@ export const leetcode_questions = [
         title: "Power of Two",
         link: "https://leetcode.com/problems/power-of-two/",
         level: "Easy",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=H2bjttEV4Vc",
         premium: false
     },
     {
@@ -2678,7 +2678,7 @@ export const leetcode_questions = [
         title: "Reverse String",
         link: "https://leetcode.com/problems/reverse-string/",
         level: "Easy",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=_d0T_2Lk2qA",
         premium: false
     },
     {
@@ -2687,7 +2687,7 @@ export const leetcode_questions = [
         title: "Russian Doll Envelopes",
         link: "https://leetcode.com/problems/russian-doll-envelopes/",
         level: "Hard",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=3fF1r5nhQX4",
         premium: false
     },
     {
@@ -2714,7 +2714,7 @@ export const leetcode_questions = [
         title: "Insert Delete GetRandom O(1)",
         link: "https://leetcode.com/problems/insert-delete-getrandom-o1/",
         level: "Medium",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=j4KwhBziOpg",
         premium: false
     },
     {
@@ -2750,7 +2750,7 @@ export const leetcode_questions = [
         title: "Design HashMap",
         link: "https://leetcode.com/problems/design-hashmap/",
         level: "Easy",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=cNWsgbKwwoU",
         premium: false
     },
     {
@@ -2759,7 +2759,7 @@ export const leetcode_questions = [
         title: "Accounts Merge",
         link: "https://leetcode.com/problems/accounts-merge/",
         level: "Medium",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=6st4IxEF-90",
         premium: false
     },
     {
@@ -2822,7 +2822,7 @@ export const leetcode_questions = [
         title: "Minimum Bit Flips to Convert Number",
         link: "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
         level: "Easy",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=yz48myznqQY",
         premium: false
     }
 ];
