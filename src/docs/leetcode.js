@@ -1139,7 +1139,7 @@ export const leetcode_questions = [
         title: "Delete Node in a Linked List",
         link: "https://leetcode.com/problems/delete-node-in-a-linked-list/",
         level: "Medium",
-        video: "N/A",
+        video: "https://www.youtube.com/watch?v=bJPmNKMtjdk",
         premium: false,
     },
     {
@@ -2634,6 +2634,195 @@ export const leetcode_questions = [
         link: "https://leetcode.com/problems/extra-characters-in-a-string/",
         level: "Medium",
         video: "https://www.youtube.com/watch?v=ONstwO1cD7c&pp=ygUNbGVldGNvZGUgMjcwNw%3D%3D",
+        premium: false
+    },
+    {
+        id: 67,
+        category_title: "N/A",
+        title: "Add Binary",
+        link: "https://leetcode.com/problems/add-binary/",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=keuWJ47xG8g",
+        premium: false
+    },
+    {
+        id: 231,
+        category_title: "N/A",
+        title: "Power of Two",
+        link: "https://leetcode.com/problems/power-of-two/",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=H2bjttEV4Vc",
+        premium: false
+    },
+    {
+        id: 299,
+        category_title: "N/A",
+        title: "Bulls and Cows",
+        link: "https://leetcode.com/problems/bulls-and-cows/",
+        level: "Easy",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 319,
+        category_title: "N/A",
+        title: "Bulb Switcher",
+        link: "https://leetcode.com/problems/bulb-switcher/",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 344,
+        category_title: "N/A",
+        title: "Reverse String",
+        link: "https://leetcode.com/problems/reverse-string/",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=_d0T_2Lk2qA",
+        premium: false
+    },
+    {
+        id: 354,
+        category_title: "N/A",
+        title: "Russian Doll Envelopes",
+        link: "https://leetcode.com/problems/russian-doll-envelopes/",
+        level: "Hard",
+        video: "https://www.youtube.com/watch?v=3fF1r5nhQX4",
+        premium: false
+    },
+    {
+        id: 363,
+        category_title: "N/A",
+        title: "Max Sum of Rectangle No Larger Than K",
+        link: "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/",
+        level: "Hard",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 365,
+        category_title: "N/A",
+        title: "Water and Jug Problem",
+        link: "https://leetcode.com/problems/water-and-jug-problem/",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 380,
+        category_title: "N/A",
+        title: "Insert Delete GetRandom O(1)",
+        link: "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=j4KwhBziOpg",
+        premium: false
+    },
+    {
+        id: 487,
+        category_title: "N/A",
+        title: "Max Consecutive Ones II",
+        link: "https://leetcode.com/problems/max-consecutive-ones-ii/",
+        level: "Medium",
+        video: "N/A",
+        premium: true
+    },
+    {
+        id: 529,
+        category_title: "N/A",
+        title: "Minesweeper",
+        link: "https://leetcode.com/problems/minesweeper/",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 588,
+        category_title: "N/A",
+        title: "Design In-Memory File System",
+        link: "https://leetcode.com/problems/design-in-memory-file-system/",
+        level: "Hard",
+        video: "N/A",
+        premium: true
+    },
+    {
+        id: 706,
+        category_title: "N/A",
+        title: "Design HashMap",
+        link: "https://leetcode.com/problems/design-hashmap/",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=cNWsgbKwwoU",
+        premium: false
+    },
+    {
+        id: 721,
+        category_title: "N/A",
+        title: "Accounts Merge",
+        link: "https://leetcode.com/problems/accounts-merge/",
+        level: "Medium",
+        video: "https://www.youtube.com/watch?v=6st4IxEF-90",
+        premium: false
+    },
+    {
+        id: 887,
+        category_title: "N/A",
+        title: "Super Egg Drop",
+        link: "https://leetcode.com/problems/super-egg-drop/",
+        level: "Hard",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1064,
+        category_title: "N/A",
+        title: "Fixed Point",
+        link: "https://leetcode.com/problems/fixed-point/",
+        level: "Easy",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1114,
+        category_title: "N/A",
+        title: "Print in Order",
+        link: "https://leetcode.com/problems/print-in-order/",
+        level: "Easy",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1195,
+        category_title: "N/A",
+        title: "Fizz Buzz Multithreaded",
+        link: "https://leetcode.com/problems/fizz-buzz-multithreaded/",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1226,
+        category_title: "N/A",
+        title: "The Dining Philosophers",
+        link: "https://leetcode.com/problems/the-dining-philosophers/",
+        level: "Medium",
+        video: "N/A",
+        premium: false
+    },
+    {
+        id: 1236,
+        category_title: "N/A",
+        title: "Web Crawler",
+        link: "https://leetcode.com/problems/web-crawler/",
+        level: "Medium",
+        video: "N/A",
+        premium: true
+    },
+    {
+        id: 2220,
+        category_title: "N/A",
+        title: "Minimum Bit Flips to Convert Number",
+        link: "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+        level: "Easy",
+        video: "https://www.youtube.com/watch?v=yz48myznqQY",
         premium: false
     }
 ];
